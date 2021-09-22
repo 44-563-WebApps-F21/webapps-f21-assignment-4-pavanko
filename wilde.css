@@ -1,0 +1,17 @@
+.speech{
+    font-size:14px;
+    color:black;
+}
+.stage-direction{
+    font-size: 12px;
+    color: black;
+    background-color: beige;
+}
+.name{
+    font-size: 10px;
+    color:black;
+}
+.stage-direction:hover{
+    background-color: blue;
+    color: burlywood;
+}

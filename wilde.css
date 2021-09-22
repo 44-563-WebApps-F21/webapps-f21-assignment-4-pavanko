@@ -1,17 +1,70 @@
 .speech{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:14px;
     color:black;
 }
-.stage-direction{
+.stage_direction{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     color: black;
     background-color: beige;
 }
-.name{
-    font-size: 10px;
-    color:black;
-}
-.stage-direction:hover{
+.stage_direction:hover{
     background-color: blue;
     color: burlywood;
 }
+.h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+}
+h6.LORD_GORING{
+    color:rgb(75,52,333);
+}
+h6.SIR_ROBERT_CHILTERN{
+    color:cyan;
+}
+table,th,td{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: left;   
+    padding: 30px;
+    margin: 15px;
+ }
+ th{
+    font-size: 20px;
+    background-color: lavender;
+}
+
+tr:nth-child(even){
+    background-color: blue;
+}
+h6.LORD_GORING:hover{
+    text-shadow: 2px 2px 5px rgb(169, 52, 80);
+    border-style: outset;
+    /*border-style: dotted;
+  border-width: 2px;*/
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #045aaa;
+  }
+  
+  .active {
+    background-color: #000;
+  }
